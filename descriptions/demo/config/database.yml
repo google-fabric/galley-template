@@ -1,0 +1,20 @@
+common: &common
+  adapter: mysql2
+  username: demo
+  password: demo
+  host: mysql
+  pool: 5
+  timeout: 5000
+  encoding: utf8
+
+development:
+  <<: *common
+  database: demo_development
+
+test:
+  <<: *common
+  database: demo_test
+
+production:
+  <<: *common
+  database: demo_production
