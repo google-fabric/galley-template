@@ -1,0 +1,21 @@
+{
+  "name": "galley-template",
+  "version": "1.0.0",
+  "description": "A template for using galley",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twitter-fabric/galley-template.git"
+  },
+  "author": "Joan Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twitter-fabric/galley-template/issues"
+  },
+  "homepage": "https://github.com/twitter-fabric/galley-template#readme",
+  "dependencies": {
+    "galley": "file:../galley"
+  }
+}
