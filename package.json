@@ -2,5 +2,8 @@
   "name": "galleyfile",
   "version": "1.0.0",
   "description": "Package for the Galleyfile",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "galley": "^1.0.0"
+  }
 }
