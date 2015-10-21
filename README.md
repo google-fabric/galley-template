@@ -6,7 +6,7 @@ Use this template repo to get started with [Galley](https://github.com/twitter-f
 $ npm install -g galley-cli
 $ git clone https://github.com/twitter-fabric/galley-template.git
 $ cd galley-template
-$ galley run demo
+$ galley run demo.dev
 ```
 
 ### Using the template
